@@ -1,31 +1,56 @@
 <!DOCTYPE html>
 <head>
+    <link rel="stylesheet" type="text/css" href="/reset.css">
+    <link rel="stylesheet" type="text/css" href="/main.css">
     <title>Google</title>
 </head>
 <body>
     <!--the header contains links to various other google services and products-->
     <header>
-        <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
-        <a href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
-        <a href="https://mail.google.com/mail/?tab=wm&authuser=0&ogbl">Gmail</a>
-        <a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a>
-        <img src="#" href="https://www.google.com/intl/en/about/products?tab=wh" alt="Google Apps">
-        <img src="#" href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/" alt="Google Accout:Your Name here">
+        <div class="header-all">
+            <div class="header-about">
+                <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+            </div>
+
+            <div class="header-store">
+                <a href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+            
+            </div>
+            <div class="header-right">
+
+                <div class="header-right-text">
+                    <a href="https://mail.google.com/mail/?tab=wm&authuser=0&ogbl">Gmail</a>
+                    <a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a>
+                </div>  
+
+                <img src="#" href="https://www.google.com/intl/en/about/products?tab=wh" alt="Google Apps">
+                <img src="#" href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/" alt="Google Accout:Your Name here">
+            </div>
+        </div>
     </header>
-        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
-        <!--this form has two buttons. the left button will submit the contents of the text input button that has the text "Google Seach", 
-        and the right button will direct to a random Google search.-->
-        <form>
-            <input type="text">
-            <button type="submit">Google Search</button>
-            <button type="submit">I'm Feeling Lucky</button>
-        </form>
+
+        <div class="center">
+            <img id="logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+            <div class="input-main">
+                <form>
+                    <input type="text">
+                    <button type="submit">Google Search</button>
+                    <button type="submit">I'm Feeling Lucky</button>
+                </form>
+            </div>
+        </div>
+
     <footer>
-        <a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
-        <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
-        <a href="https://google.com/search/howsearchworks/?fg=1">How Search Works</a>
-        <a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
-        <a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
-        <a href="https://www.google.com/preferences?hl=en">Settings</a>
+        <div class="footer-left">
+            <a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+            <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
+        </div>
+        <div class="footer-right">
+            <a href="https://google.com/search/howsearchworks/?fg=1">How Search Works</a>
+            <a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
+            <a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
+            <a href="https://www.google.com/preferences?hl=en">Settings</a>
+        </div>
     </footer>
+
 </body>
