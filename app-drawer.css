@@ -1,5 +1,5 @@
 .app-container {
-    margin: 50px;
+    
     display: grid;
     grid-template-rows: 2px, 2px, 2px;
     grid-auto-rows: 2px, 2px, 2px;
@@ -10,6 +10,8 @@
 }
 .app-blocks {
     background-color: black;
+    height: 6px;
+    width: 6px;
 }
 #block1 {
     grid-area: block1;
