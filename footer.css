@@ -10,4 +10,13 @@ html, body {
   }
   .footer {
     flex-shrink: 0;
+    align-content: center;
+  }
+  .footer-left {
+    width: 50%;;
+    order: 1;
+  }
+  .footer-right {
+    width: 50%;
+    order: 3;
   }

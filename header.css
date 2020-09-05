@@ -23,12 +23,16 @@
     color: #000;
     opacity: 0.75;
 }
+.header-left {
+    margin-top: 20px;
+}
 .header-right {
     font-family: arial,sans-serif;
     color: #222;
     font-size: 13px;
     white-space: nowrap;
     margin-left: 0!important;
+    margin-top: 20px;
     margin-right: 0!important;
     padding-left: 30px;
     padding-right: 30px;
