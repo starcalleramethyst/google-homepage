@@ -9,9 +9,11 @@
     "block7 block8 block9";
 }
 .app-blocks {
-    background-color: black;
-    height: 6px;
-    width: 6px;
+    background-color: grey;
+    height: 5px;
+    width: 5px;
+    margin: 1px;
+    
 }
 #block1 {
     grid-area: block1;
